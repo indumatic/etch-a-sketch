@@ -1,0 +1,19 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 5px;
+    height: 5px;
+    flex-shrink: 0;
+    /*border: 2px solid grey;*/
+}
+
+.on {
+    background-color: green;
+}
