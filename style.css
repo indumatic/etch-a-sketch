@@ -1,19 +1,53 @@
+
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
 .frame {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    height: 500px;
 }
 
 .row {
     display: flex;
+    flex: auto;
 }
 
 .square {
-    width: 5px;
-    height: 5px;
-    flex-shrink: 0;
-    /*border: 2px solid grey;*/
+    flex: auto;
+    margin: 1px;
+    border-radius: 4px;
+    background-color: white;
 }
 
 .on {
     background-color: green;
+}
+
+#new {
+    font-size: 24px;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
 }
