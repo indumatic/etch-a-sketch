@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color:  blanchedalmond;
     margin: 0px;
     padding: 0px;
 }
@@ -24,8 +24,8 @@ h1 {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    width: 500px;
-    height: 500px;
+    width: 75vw;
+    height: 75vw;
 }
 
 .row {
@@ -37,7 +37,7 @@ h1 {
     flex: auto;
     margin: 1px;
     border-radius: 4px;
-    background-color: white;
+    background-color: blanchedalmond;
 }
 
 .on {
@@ -46,8 +46,11 @@ h1 {
 
 #new {
     font-size: 24px;
-    border-color: white;
+    border-color:  blanchedalmond;
     border-radius: 4px;
-    color: white;
+    color:  blanchedalmond;
     background-color: black;
+    width: 75px;
+    height: 75px;
+    font-weight: bold;
 }
