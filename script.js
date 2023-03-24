@@ -42,7 +42,7 @@ const newButton = document.querySelector("#new")
 newButton.addEventListener('click', function(e) {
     let n = 0
     n = prompt("Introduce the number of squares per side of the grid ( 100 squares per side max. ):")
-    if ( n.isInteger() && n > 0 && n < 100 ) {
+    if ( Number.isInteger(n) && n > 0 && n < 100 ) {
         newGrid(n)
     }
 })
