@@ -21,6 +21,10 @@ const newGrid = function(n) {
                 /*e.target.classList.toggle("on")*/
                 e.target.style.background = randomColor()
             })
+            square.addEventListener('touchmove', function(e) {
+                /*e.target.classList.toggle("on")*/
+                e.target.style.background = randomColor()
+            })
             row.appendChild(square)
         }
         
